@@ -15,6 +15,14 @@ function generateExcuse() {
 
   return `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}.`;
 }
+
+// Display the generated excuse on button click
+document.getElementById('generate-excuse').addEventListener('click', function() {
+  let excuseElement = document.getElementById('excuse');
+  excuseElement.textContent = generateExcuse();
+});
+
+// Generate and display an excuse on page load
 window.onload = function() {
-  document.getElementById("excuse").textContent = generateExcuse();
+  document.getElementById('excuse').textContent = generateExcuse();
 };
