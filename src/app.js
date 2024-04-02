@@ -1,3 +1,9 @@
+window.onload = ( )=> {
+  document.querySelector('')
+
+}
+
+
 // excuses variables declared
 let who = ["the cat", "my father", "the bird", "my neighbor"];
 let action = ["fought", "watch", "fly", "ate", "broke"];
