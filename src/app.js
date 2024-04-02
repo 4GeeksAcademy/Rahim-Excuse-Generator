@@ -12,6 +12,7 @@ function generateExcuse() {
   //concatinating all the variables
   let excuses =
     randomWho + " " + randomAction + " " + randomWhat + " " + randomWhen;
-  console.log(excuses);
+
   return excuses;
 }
+console.log(generateExcuse);
