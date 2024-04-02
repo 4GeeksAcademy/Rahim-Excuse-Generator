@@ -1,10 +1,9 @@
 window.onload = () => {
-  document.querySelector("#button").addEventListener("click"),
-    () => {
-      document.querySelector("#excuse").innerHTML * generateExcuse();
-    };
-  console.log("excuses");
+  document.querySelector("#button").addEventListener("click", () => {
+    document.querySelector("#excuse").innerHTML = generateExcuse();
+  });
 };
+console.log("excuses");
 
 // excuses variables declared
 let who = ["the cat", "my father", "the bird", "my neighbor"];
